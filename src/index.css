@@ -1,0 +1,33 @@
+:root {
+  --primary-color: rgb(10, 70, 190);
+  --primary-color-hover: rgb(20, 80, 200);
+  --primary-bg: rgb(15, 15, 15);
+  --primary-bg-translucent: rgba(15, 15, 15, 0.6);
+  --secondary-bg: rgb(30, 30, 40);
+  --secondary-bg-hover: rgb(40, 40, 50);
+  --primary-text-color: white;
+  --primary-text-color-hover: rgb(60, 180, 255);
+  --secondary-text-color: rgb(190, 190, 190);
+  --invert: invert(0);
+}
+
+.light {
+  --primary-color: rgb(10, 60, 180);
+  --primary-color-hover: rgb(20, 80, 200);
+  --primary-bg: rgb(240, 240, 240);
+  --primary-bg-translucent: rgba(100, 100, 100, 0.6);
+  --secondary-bg: rgb(215, 215, 215);
+  --secondary-bg-hover: rgb(200, 200, 200);
+  --primary-text-color: black;
+  --primary-text-color-hover: rgb(10, 100, 220);
+  --secondary-text-color: rgb(65, 65, 65);
+  --invert: invert(1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 0.5s ease;
+}
